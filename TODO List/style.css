@@ -1,0 +1,95 @@
+div
+{
+    display: flex;
+    justify-content: space-around;
+    
+}
+form
+ {
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 30%;
+  box-shadow: rgba(149, 150, 152, 1.2) 2px 8px 24px;
+  padding: 30px;
+}
+label 
+{
+  font-size: 20px;
+}
+table 
+{
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+table td,
+table th
+ {
+  border: 1px solid orchid;
+  padding: 8px;
+  text-align: center;
+}
+
+table tr:nth-child(even) 
+{
+  background-color: #8ccf8e;
+}
+
+table tr:hover {
+  background-color:pink
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0468aa;
+  color: white;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+    margin-top: 6px;
+
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #2b619e;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 20px;
+}
+
+input[type="submit"]:hover {
+  background-color: red;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+  font-family: monospace;
+  color: #9e2b65;
+  text-decoration: underline;
+}
